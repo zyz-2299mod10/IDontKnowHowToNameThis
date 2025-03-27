@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<robot name="kit">
+    <link name="kit">
+        <visual>
+            <geometry>
+                <mesh filename="./obj-and-urdf/USB_Male_place.stl" scale="1.4 1.4 1.4"/>
+            </geometry>
+        </visual>
+        <collision>
+            <geometry>
+                <mesh filename="./obj-and-urdf/USB_Male_place.stl" scale="1.4 1.4 1.4"/>
+            </geometry>
+            <sdf resolution="16"/>
+        </collision>
+    </link>
+</robot>
